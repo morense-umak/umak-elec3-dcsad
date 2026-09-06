@@ -1,4 +1,4 @@
-NSWER_1: The Course Materials Portal could not access its configuration file /etc/course-portal/portal.conf due to insufficient file read permissions.
+ANSWER_1: The Course Materials Portal could not access its configuration file /etc/course-portal/portal.conf due to insufficient file read permissions.
 ANSWER_2: The target configuration file has 600 (-rw-------) permissions, meaning only root has read/write privileges while group and other permissions
 are completely denied. Because the portal service runs as the course-portal user, it depends on group course-portal rights, which are set to 0.
 ANSWER_3: 640
